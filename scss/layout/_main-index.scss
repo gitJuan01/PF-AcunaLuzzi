@@ -1,0 +1,19 @@
+.menus{               
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    margin-top: 3%;
+    .menu1{
+        font-size: 20px;
+        width: 20%;
+    }
+    .labelProducto{
+        margin-right: 13%;
+        margin-left: 15%;
+        font-weight: bold;
+    }
+    .menu2{
+        font-size: 20px;
+        width: 8%;
+    }
+}

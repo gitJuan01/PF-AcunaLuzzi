@@ -1,0 +1,26 @@
+@import "../utilities/maps";
+.navBar{
+    margin-top: 1%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: map-get($colores, verde );
+    ul{
+        li{
+            flex-wrap: nowrap;
+            display: inline;
+            margin-right: 2%;
+            list-style: none;
+            a{      
+                text-decoration: none;
+                padding-right: 1%;
+                color: black;
+                &:hover{
+                    color: map-get($colores, hover );
+                    transition: 0.4s;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

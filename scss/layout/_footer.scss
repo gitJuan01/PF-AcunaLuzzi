@@ -1,0 +1,30 @@
+@import "../utilities/maps";
+.footer{
+    background-color: #3d3d3d;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    .contenidoFooter{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        h2{
+            color: map-get($colores, hover);
+            padding-top: 1%;
+        }
+    }
+    .anclajeFooter{
+        padding-top: 1%;
+        a{
+            color: map-get($colores, verde );
+            font-size: 20px;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+    .linkedin{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

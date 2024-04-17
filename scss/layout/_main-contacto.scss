@@ -1,0 +1,24 @@
+@import "../base/cDatos";
+@import "../utilities/maps";
+.gridDatos{     
+    display: grid;
+    grid-template-rows: 34px 34px 100px;
+    gap: 40px;
+    margin-top: 2%;
+    .form{              
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.centrarCarga{
+    text-align: center;
+}
+
+.botonCarga{
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: map-get($colores, verde);
+    height:50px;
+}
