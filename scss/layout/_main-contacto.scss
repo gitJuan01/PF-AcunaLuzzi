@@ -1,6 +1,3 @@
-@import "../base/cDatos";
-@import "../utilities/maps";
-@import "../utilities/variables";
 .gridDatos{     
     display: grid;
     grid-template-rows: 34px 34px 100px;
@@ -17,9 +14,7 @@
 }
 
 .botonCarga{
-    border: 1px solid black;
-    font-weight: bold;
-    font-size: 15px;
+    @include botones;
+    font-size: $fuentePeque;
     background-color: map-get($colores, verde);
-    height:50px;
 }

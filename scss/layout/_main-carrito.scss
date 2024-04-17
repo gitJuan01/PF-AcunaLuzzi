@@ -1,20 +1,13 @@
-@import "../base/cDatos";
-@import "../utilities/maps";
 .botonEliminar{                
-    border: 1px solid black;
-    font-weight: bold;
-    font-size: 15px;
-    margin-left: 15%;
+    @include botones;
+    font-size: $fuentePeque;
     background-color: red;
+    margin-top: 2%;
     width: 150px;
-    height: 50px;
 }
 .botonComprar{
-    border: 1px solid black;
-    font-weight: bold;
-    font-size: 15px;
+    @extend .botonEliminar;
     margin-left: 2%;
-    background-color: map-get($colores, verde);
     width: 100px;
-    height: 50px;
+    background-color: map-get($colores, verde);
 }
