@@ -1,8 +1,10 @@
 @import "../utilities/maps";
 .centrarTitulos{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: baseline;
+    flex-wrap: nowrap;
 }
 
 h1{ 

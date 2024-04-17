@@ -1,8 +1,9 @@
+@import "../utilities/variables";
 .centrarDatos{  
     text-align: center;
     margin-top: 3%;
     p{
         margin-top: 10px;
-        font-size: 20px;
+        font-size: $tamañoFuente;
     }
 }

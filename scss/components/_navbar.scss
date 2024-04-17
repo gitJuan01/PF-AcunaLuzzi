@@ -1,8 +1,9 @@
 @import "../utilities/maps";
+@import "../utilities/variables";
 .navBar{
     margin-top: 1%;
     font-weight: bold;
-    font-size: 20px;
+    font-size: $tamañoFuente;
     text-align: center;
     background-color: map-get($colores, verde );
     ul{
