@@ -11,3 +11,16 @@
     width: 100px;
     background-color: map-get($colores, verde);
 }
+
+.articulos{
+    margin-top: 2%;
+    display: flex;
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 55px;
+        width: 100%;
+    }
+}

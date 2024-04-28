@@ -71,21 +71,49 @@ h1 {
   color: #00c700;
   text-shadow: -5px -2px 5px black; }
 
+.filtros {
+  margin-top: 2%;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: column; }
+
+.productos {
+  margin-top: 2%;
+  margin-left: 4%; }
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px; }
+
+.item {
+  width: 285px;
+  background-color: #E5E5E5;
+  padding: 10px; }
+  .item:hover {
+    background-color: #3d3d3d;
+    color: white;
+    transform: scale(1.04);
+    transition: 0.5s; }
+
 .menus {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 3%; }
   .menus .menu1 {
-    font-size: 20px;
-    width: 20%; }
+    font-size: 20px; }
   .menus .labelProducto {
     margin-right: 13%;
     margin-left: 15%;
     font-weight: bold; }
   .menus .menu2 {
-    font-size: 20px;
-    width: 8%; }
+    font-size: 20px; }
+
+.labelProducto {
+  font-size: 20px;
+  text-decoration: underline; }
 
 .efecto:hover {
   background-color: #3d3d3d;
@@ -155,3 +183,14 @@ ul {
   margin-left: 2%;
   width: 100px;
   background-color: #00c700; }
+
+.articulos {
+  margin-top: 2%;
+  display: flex; }
+  .articulos section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+    width: 100%; }
