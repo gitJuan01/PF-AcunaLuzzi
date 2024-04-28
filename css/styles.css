@@ -37,6 +37,8 @@ body {
   background-color: #3d3d3d;
   margin-top: 3%;
   padding-bottom: 2%; }
+  .footer i {
+    font-size: 45px; }
   .footer .contenidoFooter {
     display: flex;
     flex-direction: column;
@@ -48,8 +50,7 @@ body {
   .footer .anclajeFooter {
     padding-top: 1%; }
     .footer .anclajeFooter a {
-      color: #00c700;
-      font-size: 20px; }
+      color: #00c700; }
       .footer .anclajeFooter a:hover {
         color: white; }
   .footer .linkedin {
@@ -61,11 +62,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  flex-wrap: wrap; }
+  /* flex-wrap: wrap; */ }
 
 h1 {
   margin-top: 2%;
-  margin-right: 20%;
+  margin-right: 3%;
   font-size: 50px;
   color: #00c700;
   text-shadow: -5px -2px 5px black; }
@@ -90,8 +91,18 @@ h1 {
   background-color: #3d3d3d;
   color: white;
   border-radius: 15px;
-  transform: scale(1.2);
+  transform: scale(1.04);
   transition: 0.7s; }
+
+.lista, .lista2 {
+  list-style: none;
+  font-size: 20px; }
+
+.lista2 li {
+  color: #00b200; }
+
+.imagenUbi {
+  width: 60%; }
 
 .gridDatos {
   display: grid;
@@ -112,6 +123,23 @@ h1 {
   height: 50px;
   font-size: 15px;
   background-color: #00c700; }
+
+.contactos {
+  color: #00b200; }
+
+ul {
+  list-style: none;
+  font-size: 20px; }
+  ul li {
+    margin-bottom: 10px; }
+    ul li .formas {
+      color: #00b200; }
+    ul li .forma1 {
+      color: #00b200; }
+    ul li .forma2 {
+      color: #0078ff; }
+    ul li .forma3 {
+      color: #ff0000; }
 
 .botonEliminar, .botonComprar {
   border: 1px solid black;

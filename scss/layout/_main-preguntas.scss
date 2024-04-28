@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    font-size: $tamañoFuente;
+    li{
+        margin-bottom: 10px;
+        .formas{
+            color: map-get($colores, verdeL );
+        }
+        
+        .forma1{
+            color: map-get($colores, verdeL );
+        }
+        
+        .forma2{
+            color: map-get($colores, celesteO );
+        }
+        
+        .forma3{
+            color: map-get($colores, rojo );
+        }
+    }
+}

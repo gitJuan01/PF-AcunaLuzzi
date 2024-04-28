@@ -2,6 +2,9 @@
     background-color: #3d3d3d;
     margin-top: 3%;
     padding-bottom: 2%;
+    i{
+        font-size: $iconos;
+    }
     .contenidoFooter{
         display: flex;
         flex-direction: column;
@@ -16,7 +19,6 @@
         padding-top: 1%;
         a{
             color: map-get($colores, verde );
-            font-size: $tamañoFuente;
             &:hover{
                 color: map-get($colores, hover );
             }
